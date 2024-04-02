@@ -9,11 +9,11 @@ accountCity = "Lahore"
 accountEmail = "test@email.com"
 accountPassword = "54321"
 accountCity = "Karachi"
-
+let accountState;
 /*
 use let keyword for variables
 prefer not to use var 
 because of issue of block scope and functional scope. 
 */
 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
