@@ -1,6 +1,6 @@
 // singleton object
 
-// const skypeUser = new Object(); 
+// const skypeUser = new Object();
 
 // object literals. // non singleton object
 
@@ -72,4 +72,33 @@ const multiObj = [
 // console.log(Object.entries(skypeUser))
 
 // console.log(Object.hasOwnProperty("name"))
-console.log(skypeUser.hasOwnProperty("Id"))
+// console.log(skypeUser.hasOwnProperty("Id"))
+
+const cource = {
+    courseName: 'Js in Urdu',
+    price : 34500,
+    courceInstructor:'hitest'
+}
+
+// console.log(cource.courceInstructor) // output hitest
+
+const {courceInstructor} = cource; // 1-way destructuring the object.
+const {courceInstructor : Instrcutor} = cource; // 2-way destructuring the object.
+// console.log(courceInstructor) // output hitest
+// console.log(Instrcutor)
+
+//React code example to destructing the object. {compnay.}
+// const navbar = ({company})=>{
+
+// }
+
+// navbar(company="Kamran")
+
+// Json Syntax
+// {
+//     "name":"Kamran",
+//     "Id": 132,
+//     "age": 32,
+//     "email": "kamran@gmail.com"
+// }
+
