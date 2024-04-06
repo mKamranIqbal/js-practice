@@ -38,7 +38,23 @@ JsUser.email = 'sample@gmail.com'
 const User3 = Object.assign({}, JsUser, User1)
 // console.log(User3)
 const obj4 = { ...JsUser, ...User1}
-console.log(obj4)
+// console.log(obj4)
 
 // console.log(JsUser);
 // console.log(User1)
+
+
+JsUser.greeting = function(){
+    console.log("Hi kamran how are you !");
+}
+
+// console.log(JsUser.greeting());
+
+JsUser.greeting2 = function(){
+    console.log(`hello my name is ${JsUser.name} and my age is ${JsUser.age} and my email address is ${JsUser.email}. Now I'm loggedin ${JsUser.isLoggedId} my last login day is ${JsUser.lastLoginDays[1]}`)
+}
+
+// console.log(JsUser.greeting2())
+console.log(JsUser["age"])
+console.log(JsUser["name"])
+console.log(JsUser["isLoggedId"])
