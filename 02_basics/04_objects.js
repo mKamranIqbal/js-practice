@@ -79,7 +79,6 @@ const cource = {
     price : 34500,
     courceInstructor:'hitest'
 }
-
 // console.log(cource.courceInstructor) // output hitest
 
 const {courceInstructor} = cource; // 1-way destructuring the object.
@@ -101,4 +100,3 @@ const {courceInstructor : Instrcutor} = cource; // 2-way destructuring the objec
 //     "age": 32,
 //     "email": "kamran@gmail.com"
 // }
-
