@@ -100,3 +100,15 @@ const {courceInstructor : Instrcutor} = cource; // 2-way destructuring the objec
 //     "age": 32,
 //     "email": "kamran@gmail.com"
 // }
+
+const myUser ={
+    name : "Ali",
+    age: 32,
+    email:"ali@gmail.com"
+}
+
+const {name : n, email: e, age: a} = myUser
+
+console.log(n)
+console.log(e)
+console.log(a)
