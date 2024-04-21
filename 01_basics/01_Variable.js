@@ -16,4 +16,21 @@ prefer not to use var
 because of issue of block scope and functional scope. 
 */
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+// console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+
+let a = {};
+
+let person = {
+    name :'hamza',
+    id: 11,
+    age : 1.5,
+    color: 'brown'
+    
+}
+
+let car = {
+    model:'Honda',
+    year: 2023,
+    color: 'white'
+
+}
